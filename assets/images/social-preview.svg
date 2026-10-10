@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Wedding invitation social preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef7ef"/>
+      <stop offset="50%" stop-color="#f5e7cc"/>
+      <stop offset="100%" stop-color="#6a1d2f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8e6b4"/>
+      <stop offset="50%" stop-color="#d9b061"/>
+      <stop offset="100%" stop-color="#b9842c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="200" cy="140" r="170" fill="rgba(217,176,97,0.18)"/>
+  <circle cx="1000" cy="470" r="180" fill="rgba(91,30,42,0.12)"/>
+  <g opacity="0.7" fill="none" stroke="url(#gold)" stroke-width="2">
+    <path d="M310 180C375 135 455 125 520 160"/>
+    <path d="M680 165C745 125 820 130 885 182"/>
+    <path d="M260 440C340 405 430 390 520 430"/>
+    <path d="M680 430C770 390 850 400 940 450"/>
+  </g>
+  <text x="600" y="270" text-anchor="middle" font-size="86" font-family="Georgia, serif" fill="#5b1e2a">Manish &amp; Bhavana</text>
+  <text x="600" y="340" text-anchor="middle" font-size="32" font-family="sans-serif" letter-spacing="7" fill="#7a5c45">SAVE THE DATE</text>
+  <text x="600" y="390" text-anchor="middle" font-size="28" font-family="sans-serif" fill="#5b1e2a">25 Nov 2026 | 9 PM IST</text>
+  <text x="600" y="455" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#5b1e2a">परिणय उत्सव वाटिका (Parinay Utsav Vatika)</text>
+  <text x="600" y="488" text-anchor="middle" font-size="18" font-family="sans-serif" fill="#5b1e2a">Dumri Road, beside Degree College, Chilkahar, District Ballia, Uttar Pradesh, India</text>
+  <rect x="430" y="520" width="340" height="44" rx="22" fill="url(#gold)"/>
+  <text x="600" y="548" text-anchor="middle" font-size="18" font-family="sans-serif" font-weight="600" fill="#2d0f16">JOIN US IN CELEBRATION</text>
+</svg>

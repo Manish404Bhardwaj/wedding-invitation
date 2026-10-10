@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Gallery placeholder 3">
+  <defs>
+    <linearGradient id="bg3" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fefaf5"/>
+      <stop offset="100%" stop-color="#efd8a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg3)"/>
+  <ellipse cx="400" cy="350" rx="260" ry="240" fill="rgba(91,30,42,0.08)"/>
+  <path d="M210 720c70-160 150-240 190-240s120 80 190 240v110H210V720z" fill="#5b1e2a" opacity="0.8"/>
+  <circle cx="330" cy="380" r="125" fill="#f3d2ae"/>
+  <circle cx="500" cy="380" r="125" fill="#f3d2ae"/>
+  <path d="M210 380c30-180 135-230 225-230 125 0 230 70 230 230" fill="#5b1e2a" opacity="0.78"/>
+  <text x="400" y="865" text-anchor="middle" font-size="62" font-family="Georgia, serif" fill="#5b1e2a">Forever</text>
+</svg>

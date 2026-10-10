@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Gallery placeholder 1">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffaf3"/>
+      <stop offset="100%" stop-color="#f5d9a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="240" cy="230" r="160" fill="rgba(91,30,42,0.08)"/>
+  <circle cx="560" cy="340" r="190" fill="rgba(217,176,97,0.1)"/>
+  <path d="M160 760c80-160 190-240 280-240 140 0 220 120 280 240v120H160V760z" fill="#5b1e2a" opacity="0.76"/>
+  <circle cx="360" cy="390" r="130" fill="#f1d1ad"/>
+  <path d="M250 390c30-150 110-220 210-220 120 0 200 110 200 220" fill="#5b1e2a" opacity="0.8"/>
+  <text x="400" y="880" text-anchor="middle" font-size="70" font-family="Georgia, serif" fill="#5b1e2a">Together</text>
+</svg>

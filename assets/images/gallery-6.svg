@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Gallery placeholder 6">
+  <rect width="800" height="1000" fill="#f9f2e8"/>
+  <circle cx="250" cy="260" r="140" fill="rgba(91,30,42,0.08)"/>
+  <circle cx="560" cy="300" r="190" fill="rgba(217,176,97,0.13)"/>
+  <path d="M140 760c100-150 180-200 260-200 120 0 220 100 260 200v120H140V760z" fill="#6c1d31" opacity="0.72"/>
+  <circle cx="330" cy="390" r="120" fill="#f2d3b0"/>
+  <circle cx="500" cy="390" r="120" fill="#f2d3b0"/>
+  <path d="M200 390c40-160 120-240 220-240s180 80 220 240" fill="#5b1e2a" opacity="0.8"/>
+  <text x="400" y="875" text-anchor="middle" font-size="64" font-family="Georgia, serif" fill="#5b1e2a">Golden</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-label="Couple portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef7ef"/>
+      <stop offset="100%" stop-color="#f0d9b0"/>
+    </linearGradient>
+    <linearGradient id="rose" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#7f2d3a"/>
+      <stop offset="100%" stop-color="#3d1016"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f9e7b7"/>
+      <stop offset="50%" stop-color="#d9b061"/>
+      <stop offset="100%" stop-color="#b9842c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="350" cy="300" r="250" fill="rgba(91,30,42,0.08)"/>
+  <circle cx="920" cy="320" r="240" fill="rgba(217,176,97,0.14)"/>
+  <path d="M260 1110c100-220 240-320 360-320s260 100 360 320" fill="url(#rose)" opacity="0.14"/>
+  <g>
+    <circle cx="460" cy="470" r="150" fill="#f5d9b8"/>
+    <circle cx="740" cy="470" r="150" fill="#f5d9b8"/>
+    <path d="M350 470c28-160 119-240 222-240s194 80 222 240" fill="#5b1e2a" opacity="0.72"/>
+    <path d="M420 705c88-72 170-72 260 0v315H420V705z" fill="#5b1e2a" opacity="0.82"/>
+    <path d="M680 705c88-72 170-72 260 0v315H680V705z" fill="#5b1e2a" opacity="0.82"/>
+  </g>
+  <g fill="none" stroke="url(#gold)" stroke-width="4" opacity="0.9">
+    <path d="M180 240c70-55 155-95 240-110"/>
+    <path d="M1020 240c-70-55-155-95-240-110"/>
+    <path d="M180 1220c70-55 155-95 240-110"/>
+    <path d="M1020 1220c-70-55-155-95-240-110"/>
+  </g>
+  <text x="600" y="1350" text-anchor="middle" font-size="78" font-family="Georgia, serif" fill="#5b1e2a">Manish weds Bhavana</text>
+</svg>

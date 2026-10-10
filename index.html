@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join us as we celebrate our wedding day and share this joyful invitation with family and friends."
+    />
+    <meta property="og:title" content="[Bride Name] & [Groom Name] | Wedding Invitation" />
+    <meta
+      property="og:description"
+      content="Save the date for our wedding celebration and join us in a day filled with love, blessings, and joy."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/social-preview.svg" />
+    <meta property="og:url" content="https://yourusername.github.io/wedding-invitation/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="[Bride Name] & [Groom Name] | Wedding Invitation" />
+    <meta
+      name="twitter:description"
+      content="We invite you to celebrate our wedding with love, laughter, and blessings."
+    />
+    <meta name="twitter:image" content="assets/images/social-preview.svg" />
+    <title>[Bride Name] & [Groom Name] | Wedding Invitation</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="splash" id="splash" aria-hidden="false">
+      <div class="envelope-wrap" aria-label="Wedding invitation envelope">
+        <div class="splash-topline">श्री गणेशाय नमः · शुभ विवाह आमंत्रण</div>
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="envelope-flap"></div>
+          <div class="envelope-letter">
+            <span class="mini-tag">स्नेह के साथ,</span>
+            <h2>M &amp; B</h2>
+            <p>आपके लिए शुभ आमंत्रण</p>
+          </div>
+        </div>
+        <button id="openInvitation" class="splash-button" type="button">
+          आमंत्रण देखें
+        </button>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a href="#home" class="brand" aria-label="Go to home section">M & B</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle menu</span>
+        </button>
+        <div id="navMenu" class="nav-menu">
+          <a href="#story">हमारा परिचय</a>
+          <a href="#video">वीडियो</a>
+          <a href="#countdown">गिनती</a>
+          <a href="#events">कार्यक्रम</a>
+          <a href="#gallery">तस्वीरें</a>
+          <a href="#venue">स्थान</a>
+          <a href="#rsvp">उपस्थिति</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="animated-banner" aria-label="Wedding announcement banner">
+      <div class="animated-banner-track">
+        <span>Manish weds Bhavana</span>
+        <span class="divider">✦</span>
+        <span>मनीष संग भावना</span>
+        <span class="divider">✦</span>
+        <span>Manish weds Bhavana</span>
+        <span class="divider">✦</span>
+        <span>मनीष संग भावना</span>
+        <span class="divider">✦</span>
+        <span>Manish weds Bhavana</span>
+        <span class="divider">✦</span>
+        <span>मनीष संग भावना</span>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
+        <div class="glow glow-one" aria-hidden="true"></div>
+        <div class="glow glow-two" aria-hidden="true"></div>
+
+        <div class="container hero-inner reveal cinematic-stage">
+          <div class="cinematic-overlay" aria-label="Cinematic wedding invitation">
+            <div class="cinematic-image" aria-hidden="true"></div>
+            <div class="gold-rays" aria-hidden="true"></div>
+            <div class="bokeh bokeh-one" aria-hidden="true"></div>
+            <div class="bokeh bokeh-two" aria-hidden="true"></div>
+            <div class="bokeh bokeh-three" aria-hidden="true"></div>
+            <div class="diya diya-one" aria-hidden="true"></div>
+            <div class="diya diya-two" aria-hidden="true"></div>
+            <div class="invitation-slides" id="invitationSlides" aria-live="polite"></div>
+          </div>
+
+          <div class="hero-copy">
+            <p class="eyebrow">मान-सन्मान सहित आशीर्वाद का पावन निमंत्रण</p>
+            <h1 class="names" aria-label="Bride and Groom names">
+              <span class="name groom-name">मनीष कुमार</span>
+              <span class="name-separator">♥</span>
+              <span class="name bride-name">भावना भारद्वाज</span>
+            </h1>
+            <p class="save-date">Save the Date</p>
+            <p id="weddingDate" class="wedding-meta">25 नवम्बर 2026, विवाह</p>
+            <div class="hero-actions">
+              <a href="#events" class="button primary">उत्सव देखें</a>
+              <a href="#rsvp" class="button secondary">उपस्थिति</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="video" class="section video video-hidden video-top">
+        <div class="container">
+          <div class="video-feature reveal">
+            <video autoplay loop muted playsinline preload="auto" poster="assets/images/social-preview.svg" aria-label="Decorative wedding video">
+              <source src="assets/video/Golden_Ganesha_wedding_invitatio…_20261010212554.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="section-heading reveal">
+            <p class="kicker">Love</p>
+            <h2>The Story of Our Upcoming Wedding</h2>
+          </div>
+          <div class="video-card reveal">
+            <div class="video-shell">
+              <video id="storyVideo" playsinline preload="auto" autoplay loop muted poster="assets/images/social-preview.svg" controls="false">
+                <source src="assets/video/Couple_in_decorated_wedding_hall_20261010174434.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section story">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="kicker">Our Blessing</p>
+            <h2>With Love, Blessings, and the Warm Wishes of Our Family</h2>
+          </div>
+
+          <div class="story-layout reveal">
+            <div class="story-card photo-panel">
+              <img src="assets/images/social-preview.svg" alt="Wedding invitation social preview" loading="eager" />
+            </div>
+            <div class="story-card text-panel">
+              <p id="invitationMessage">
+                हमें आपसे यह पावन अवसर साझा करने की हार्दिक इच्छा है। हमारे विवाह समारोह में आपके आशीर्वाद और शुभागमन की अपेक्षा है।
+              </p>
+              <blockquote>
+                “प्रेम, विश्वास और एकता से निर्मित जीवन केवल सौभाग्य नहीं, बल्कि परम आशीर्वाद है।”
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="countdown" class="section countdown">
+        <div class="container">
+          <div class="section-heading reveal center">
+            <p class="kicker">गिनती</p>
+            <h2>शुभ विवाह दिवस तक</h2>
+          </div>
+          <div class="countdown-grid reveal">
+            <div class="time-box">
+              <span class="time-value" data-unit="days">00</span>
+              <span class="time-label">दिन</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" data-unit="hours">00</span>
+              <span class="time-label">घंटे</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" data-unit="minutes">00</span>
+              <span class="time-label">मिनट</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" data-unit="seconds">00</span>
+              <span class="time-label">सेकंड</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="section events">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="kicker">उत्सव</p>
+            <h2>कार्यक्रम</h2>
+          </div>
+          <div id="eventsGrid" class="events-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section gallery">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="kicker">यात्रा</p>
+            <h2>हमारी पावन राह</h2>
+          </div>
+          <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="venue" class="section venue">
+        <div class="container venue-layout">
+          <div class="section-heading reveal">
+            <p class="kicker">स्थान</p>
+            <h2>आइए, इस शुभ अवसर पर मिलें</h2>
+          </div>
+
+          <div class="venue-card reveal">
+            <div class="map-wrap">
+              <iframe
+                id="mapFrame"
+                title="Wedding venue map"
+                src="https://www.google.com/maps?q=25.811961189662878,83.97012112127885&z=15&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="venue-details">
+              <h3 id="venueName">परिणय उत्सव वाटिका</h3>
+              <p id="venueAddress">डुमरी रोड, डिग्री कॉलेज के बगल में, चिलकहर, जनपद बलिया (उ०प्र०)</p>
+              <a id="mapLink" class="button primary" href="#" target="_blank" rel="noreferrer">
+                दिशा-निर्देश
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="families" class="section family">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="kicker">आशीर्वाद</p>
+            <h2>स्नेह और आभार के साथ</h2>
+          </div>
+          <div id="familyGrid" class="family-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="rsvp" class="section rsvp">
+        <div class="container">
+          <div class="rsvp-card reveal">
+            <p class="kicker">उपस्थिति</p>
+            <h2>आपकी उपस्थिति हमारे लिए सौभाग्य है</h2>
+            <p class="rsvp-note">
+              इस पावन अवसर पर आपके आशीर्वाद और उपस्थिति का हमें हार्दिक स्नेह से इंतज़ार रहेगा। कृपया अपनी उपस्थिति की पुष्टि करें।
+            </p>
+            <div class="rsvp-actions">
+              <a id="whatsappButton" class="button primary" href="#" target="_blank" rel="noreferrer">
+                WhatsApp
+              </a>
+              <button id="downloadCalendar" class="button secondary" type="button">
+                कैलेंडर में जोड़ें
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>हृदय से आभार, इस शुभ अवसर का हिस्सा बनने के लिए धन्यवाद।</p>
+        <div class="footer-signature">
+          <span>भावना भारद्वाज</span>
+          <span class="amp">♥</span>
+          <span>मनीष कुमार</span>
+        </div>
+        <p class="hashtag">#ForeverTogetherMB</p>
+      </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close gallery">×</button>
+      <img id="lightboxImage" src="" alt="Expanded gallery view" />
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
